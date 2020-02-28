@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var cats=5;
+var inLine=2;
+nFile=Math.ceil(cats/inLine);
+tot=inLine*nFile;
+rest=tot-cats;
+console.log(cats + ' gatti in fila per ' + inLine + ' si unirono compatti in ' + nFile + ' file. Rimasero disponibili ' + rest + ' posti.');
