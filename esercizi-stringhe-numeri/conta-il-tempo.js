@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var seconds = 12560;
+const value1 = 3600;
+const value2 = 60;
+hour = Math.floor(seconds/value1);
+min = Math.floor((seconds%value1)/value2);
+sec = (seconds%value1)-(min*value2);
+console.log(seconds + ' secondi corrispondono a ' + hour + ' ore, ' + min + ' minuti e ' + sec + ' secondi.');
