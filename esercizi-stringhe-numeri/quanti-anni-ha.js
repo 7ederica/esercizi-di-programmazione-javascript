@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var year=2020;
+var birth=1990;
+const secolo=100;
+old= year-birth;
+yearsToSecolo=secolo-old;
+console.log('età = ' + old + '. Anni mancanti al secolo = ' + yearsToSecolo);
