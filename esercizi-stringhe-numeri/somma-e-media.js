@@ -8,3 +8,9 @@
   
   http://www.imparareaprogrammare.it
 */
+
+var numbers=[a=1, b=2, c=3, d=4, e=5]
+var tot=numbers.length
+sum= a+b+c+d+e;
+media=sum/tot;
+console.log(sum, media);
